@@ -12,7 +12,7 @@ export default ({ title, description, url, article }) => {
 
   return (
     <React.Fragment>
-      <Helmet title={seo.title} >
+      < Helmet title={seo.title} >
         <meta name="description" content={seo.description} />
         <meta name="image" content={seo.image} />
         {seo.url && <meta property="og:url" content={seo.url} />}
